@@ -1,19 +1,16 @@
 {
-  "name": "ls",
+  "name": "a02-noebrown",
   "version": "1.0.0",
   "description": "Assignment2 Noe Brown",
-  "main": "index.js",
-  "bin": {
-    "galosh.js": "./cli.js"
-  },
+  "main": "cli.js",
   "scripts": {
     "test": "node cli.js -n 35.92 -w 79.05 -z America/New_York"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/comp426-2022-fall/a02-noebrown.git"
   },
-  "author": "Noe Brown",
+  "author": "noebrown",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a02-noebrown/issues"
@@ -24,4 +21,8 @@
     "moment-timezone": "^0.5.38",
     "node-fetch": "^3.2.10"
   }
+  "bin": {
+    "galosh.js": "./cli.js"
+  },
+  "type":"module"
 }
